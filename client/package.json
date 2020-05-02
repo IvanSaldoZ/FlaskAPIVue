@@ -16,7 +16,8 @@
     "bootstrap-vue": "^2.13.0",
     "vue": "^2.5.2",
     "vue-instagram": "^3.0.0",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "mem": ">=4.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
