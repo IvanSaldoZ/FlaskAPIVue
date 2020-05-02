@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Plus Vue.js Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+Say hello to my little friend: {{ thing }}<br>
+Ala, it just destroyed {{ place }}!
+
+
+       <div id="app">
+            <ol>
+                <todo-item
+                    v-for="item in groceryList"
+                    v-bind:todo="item"
+                    v-bind:key="item.id">
+               </todo-item>
+            </ol>
+        </div>
+        <!-- https://vuejs.org/v2/guide/list.html#key -->
+
+        <script src="/static/js/index.js"></script>
+
+</body>
+</html>
